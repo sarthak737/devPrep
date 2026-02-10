@@ -148,7 +148,7 @@ export function AuthForm({ type }: { type: FormType }) {
       </CardContent>
       <CardFooter className="mt-2">
         <Field>
-          <Button type="submit" form="form-rhf-input">
+          <Button className="cursor-pointer" type="submit" form="form-rhf-input">
             {isSignIn ? "Submit" : "Create Account"}
           </Button>
           <p className="mt-1 font-light text-primary opacity-80 text-md">
